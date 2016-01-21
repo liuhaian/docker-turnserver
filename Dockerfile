@@ -22,3 +22,5 @@ ADD turnserver.sh /etc/service/turnserver/run
 
 # Clean up APT when done.
 RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+
+EXPOSE 3478
